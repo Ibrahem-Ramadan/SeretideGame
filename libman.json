@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "provider": "unpkg",
+      "library": "@microsoft/signalr@latest",
+      "destination": "wwwroot/lib/microsoft/signalr/",
+      "files": [
+        "dist/browser/signalr.js",
+        "dist/browser/signalr.min.js"
+      ]
+    },
+    {
+      "library": "jquery@3.6.0",
+      "destination": "wwwroot/jquery/",
+      "files": [
+        "jquery.js",
+        "jquery.min.js"
+      ]
+    },
+    {
+      "provider": "unpkg",
+      "library": "feather-icons@4.28.0",
+      "destination": "wwwroot/lib/feather-icons/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "popper@1.0.1",
+      "destination": "wwwroot/lib/popper/"
+    }
+  ]
+}
